@@ -1,7 +1,15 @@
 <resources>
-    <string name="app_name">Little Paws</string>
-    <string name="password">Password</string>
-    <string name="email">Email</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="statement_content">
+        \n<b><big>Neglect</big></b>
+
+\n\nAnimal neglect is fundamentally a failure to provide for the needs of animals. This could be leaving a dog outside without access to clean water or shelter from the elements, failure to feed a hamster, or not providing for the medical needs of an animal that has been injured and needs veterinary attention. Though neglect is often unintentional or due to financial or other constraints on the part of the neglectful person, it can also be intentional. For example: neglecting to feed a chicken to force molting and thereby get them to produce eggs again within the industry standards once food is once again offered.
+
+\n\n\n<b><big>Hoarding</big></b>
+
+\n\nHoarding is a particularly severe form of neglect that involves a person owning a greater number of animals than they can provide adequate care for, leading to some or all of the animals suffering from neglect. Oftentimes, hoarders will market themselves as rescuers, as the hoarder feels that they are rescuing animals from suffering or homelessness. Some have suggested animal hoarding as a particular subset of Diogenes syndrome, a behavioral disorder of the elderly. However, animal hoarding crosses demographics with hoarders spanning age brackets.
+
+\n\n\n<b><big>Physical Abuse</big></b>
+
+\n\nPhysical abuse of animals is what we typically picture when we think of animal abuse. This type of abuse involves causing physical trauma to an animal. This could be soring a horse in order to make it perform better for competition, taking part in cockfighting, or otherwise injuring any animal in any way. Unfortunately, many types of physical animal abuse are condoned within certain industries. For example, chickens in the egg industry are often transported in tiny cages that result in an untimely death for some of the birds.
+    </string>
 </resources>
