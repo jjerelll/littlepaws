@@ -61,7 +61,6 @@
             app:layout_constraintTop_toBottomOf="@+id/branch1" />
 
         <TextView
-            android:id="@+id/num1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -91,7 +90,6 @@
             app:layout_constraintVertical_bias="0.297" />
 
         <ImageView
-            android:id="@+id/callbtn1"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="24dp"
@@ -143,7 +141,6 @@
             app:layout_constraintTop_toBottomOf="@+id/branch2" />
 
         <TextView
-            android:id="@+id/num2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -173,7 +170,6 @@
             app:layout_constraintVertical_bias="0.297" />
 
         <ImageView
-            android:id="@+id/callbtn2"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="24dp"
@@ -225,7 +221,6 @@
             app:layout_constraintTop_toBottomOf="@+id/branch4" />
 
         <TextView
-            android:id="@+id/num4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -255,7 +250,6 @@
             app:layout_constraintVertical_bias="0.297" />
 
         <ImageView
-            android:id="@+id/callbtn4"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="24dp"
@@ -304,7 +298,6 @@
             app:layout_constraintTop_toBottomOf="@+id/branch3" />
 
         <TextView
-            android:id="@+id/num3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -334,7 +327,6 @@
             app:layout_constraintVertical_bias="0.297" />
 
         <ImageView
-            android:id="@+id/callbtn3"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="24dp"

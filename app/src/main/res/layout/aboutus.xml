@@ -62,8 +62,9 @@
                 android:text="Little Paw is a powerful Android application designed to address the pressing issue of animal abuse by raising awareness, providing resources, and facilitating meaningful actions. By leveraging technology, Little Paw empowers users to become active participants in the fight against animal cruelty, ultimately creating a safer and more compassionate world for animals. Through education, reporting, adoption, donations, and community engagement, Little Paw plays a vital role in shaping a society that values and protects the rights and well-being of all animals."
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -76,11 +77,11 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
             <TextView
-                android:id="@+id/textView4"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -90,8 +91,9 @@
                 android:text="Little Paws, an esteemed organization dedicated to animal welfare, has selected you, a group of courageous individuals known as the &quot;Paw Protectors,&quot; to embark on a vital mission. Your objective is to make a positive impact on the lives of animals in need, ensuring their safety, well-being, and happiness."
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.486"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -104,8 +106,9 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
             <TextView
                 android:id="@+id/textView5"

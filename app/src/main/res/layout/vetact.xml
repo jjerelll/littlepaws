@@ -7,7 +7,6 @@
     android:background="@drawable/bgmain">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="56dp"
@@ -160,7 +159,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <TextView
-            android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0905 295 1405"
@@ -193,7 +191,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
         <TextView
-            android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" (02) 8532 3340"

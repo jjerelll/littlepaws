@@ -13,6 +13,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 
 public class ProfileFragment extends Fragment {
+
     private TextView nameTextView;
     private TextView emailTextView;
     private TextView phoneTextView;
@@ -25,8 +26,6 @@ public class ProfileFragment extends Fragment {
     private Button logoutButton; // Add logout button
 
     private boolean isEditMode = false;
-    private String email;
-    private String name;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -67,31 +66,15 @@ public class ProfileFragment extends Fragment {
         });
 
         // Set initial values for the fields
-        bioEditText.setText("");
-        birthdayEditText.setText("");
-        genderEditText.setText("");
-        addressEditText.setText("");
+        bioEditText.setText("Strong independent person");
+        birthdayEditText.setText("September 10, 2002");
+        genderEditText.setText("Male");
+        addressEditText.setText("Manila, Philippines");
 
         // Disable the EditText fields and hide the save button initially
         disableEditMode();
 
         return view;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        // Retrieve the email and name values from the arguments
-        Bundle arguments = getArguments();
-        if (arguments != null) {
-            email = arguments.getString("email");
-            name = arguments.getString("name");
-        }
-
-        // Set the retrieved values to the respective TextViews
-        emailTextView.setText(email);
-        nameTextView.setText(name);
     }
 
     private void enableEditMode() {
@@ -150,6 +133,7 @@ public class ProfileFragment extends Fragment {
         addressEditText.setVisibility(View.GONE);
 
         // You can save the new values to your model or database here
+
     }
 
     private void logout() {
